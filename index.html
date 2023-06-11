@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<section id="home">
+  <header>
+    <nav class="navigation">
+      <ul>
+        <h2 class="'logo"><img src="logo.png" class="logoheader"></h2>
+        <br>
+      <li><a href="#home" class ="active">Home</a></li>
+      <br>
+      <li><a href="#skills">About</a></li>
+      <br>
+      <li><a href="#experience">Skills</a></li>
+      <br>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </nav>
+    <div class="h1">
+    <h1> Welcome to my <br>Portfolio</h1>
+  </div>
+  </header>
+
+  <section class="port">
+    <img src="opening.gif">
+  </section>
+</section>
+
+
+
+
+<section id="skills">
+  <div class="about-section">
+    <div class="inner-container">
+      <h1> About Me</h1>
+      <p class="text">IT Technician with 2+ years of
+      experience in-field, preparing flawless
+      presentations and leading team projects.
+      <br><br>
+      Well organized person, a problem solver, independent employee
+      with high attention to detail. A very out going person 
+      who loves to meet new people and expand his social boundaries.</p>
+      <br> <br><br><br>
+        <h3> linkedin</h3>
+      <a class="icon" href="https://www.linkedin.com/in/alan-joe/" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
+      <h3> Resume</h3>
+      <a class="icon1" href="r.pdf" target="_blank">
+        <ion-icon name="cloud-download-outline"></ion-icon>
+      </a>
+      
+    </div>
+    
+</section>
+
+<section id="experience">
+  <div class="inner">
+    <div class="header">
+      <h1>Skills</h1>
+    </div>
+      <div class="container">
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="html.png" class="skill-icon">
+            </div>
+            <h3>HTML</h3>
+          </div>
+            <p>Proficient in writing clean and semantic HTML markup for web pages and email templates. 
+              Experienced in using HTML5 elements, forms, and input validation</p>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="office.png" class="skill-icon">
+            </div>
+            <h3>Office</h3>
+          </div>
+            <p>Proficient in all aspects of office such as Word, Excel, Outlook, OneNote
+              etc.. Skilled in styling, using formulas, creating engaging visual details,
+              organizing and priortizing tasks.</p>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="js.png" class="skill-icon"> 
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+            <p>Strong understanding of front-end development principles, including responsive design, 
+              cross-browser compatibility, and optimization techniques.</p>
+        </div> 
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="photo.png" class="skill-icon">
+            </div>
+            <h3>Photography</h3>
+          </div>
+            <p> Proficient in capturing high-quality images using various types of cameras and equipment. 
+              Experienced in operating DSLR cameras and utilizing manual 
+              settings for optimal image quality and creative control.</p>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="c.png" class="skill-icon">
+            </div>
+            <h3>Cisco</h3>
+          </div>
+            <p> Proficient in designing, configuring, and troubleshooting 
+            Cisco network infrastructure, including routers, switches, and firewalls. Also proficient in configuring servers from all manufactures.</p>
+        </div>
+        <div class="skill-box">
+          <div class="skill-title">
+            <div class="img">
+              <img src="pro.png" class="skill-icon">
+            </div>
+            <h3>Project Handling</h3>
+          </div>
+            <p>Experienced in managing projects from initiation to completion, 
+              ensuring adherence to timelines, budgets, and quality standards.</p>
+        </div>
+      </div>
+
+</div>
+</section>
+
+<section id="contact">
+ 
+  <div class="contactcontainer">
+    <form id="contact-form" method="POST">
+      <h1>Contact</h1>
+      <h3> Feel free to reach out to me!</h3>
+      <br>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" required>
+
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" required> 
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit" id="button">
+    </form>
+  </div>
+
+</section>
+</div>
+</body>
+</html>
