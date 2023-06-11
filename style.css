@@ -336,11 +336,11 @@ padding: 80px;
 }
 @media screen and (max-width: 500px) {
   .container h3{
-    font-size: 10px;
+    font-size: 15px;
     overflow: hidden;
   }
   .container p{
-    font-size: 5px;
+    font-size: 7px;
     overflow: hidden;
   }
 }
